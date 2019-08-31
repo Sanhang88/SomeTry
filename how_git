@@ -1,0 +1,9 @@
+git init
+git add
+git commit
+git checkout -b ""
+git checkout ""
+git remote add "" ""
+git push "" ex:master
+git pull "" ex:master
+git diff ""
