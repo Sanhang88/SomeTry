@@ -1,0 +1,14 @@
+git init
+git add ""
+git diff ""
+git rm ""
+git commit
+git checkout -b ""
+git checkout ""
+git remote add "" ""
+git push "" ex:master
+git pull "" ex:master
+git log
+git reset HEAD^
+git reflog
+git reset XXXXX
