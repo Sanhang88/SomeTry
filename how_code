@@ -1,0 +1,6 @@
+use arguments in bash program:
+int main(int arg_num,char** args)
+args[0]==>the name of the program
+
+gcc *.c -o a.out
+./ a.out
