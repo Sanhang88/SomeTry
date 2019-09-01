@@ -1,0 +1,7 @@
+ctrl-u delete the line
+ctrl-a move to the aaa
+ctrl-e move to the end
+ctrl-w delete the last argument
+ctrl-r search the used command
+ctrl-b move by word -before-
+ctrl-f move by word -after- 
