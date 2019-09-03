@@ -13,3 +13,4 @@ history list the prior commands
 ~ indicate the home directory
 / indicate the root directory
 - indicate the last directory
+alt-# make current line a comment line so that you can return it by history later
