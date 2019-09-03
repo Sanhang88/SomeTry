@@ -10,3 +10,6 @@ history list the prior commands
 !! indicate the last command
 !$ indicate the last argument
 !n indicate the last command-argument combination
+~ indicate the home directory
+/ indicate the root directory
+- indicate the last directory
