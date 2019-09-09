@@ -14,3 +14,5 @@ history list the prior commands
 / indicate the root directory
 - indicate the last directory
 alt-# make current line a comment line so that you can return it by history later
+column -t ** make each line align correctly
+less ctrl-b ctrl-f gg G the use is the same as vim
