@@ -17,3 +17,4 @@ alt-# make current line a comment line so that you can return it by history late
 column -t ** make each line align correctly
 less ctrl-b ctrl-f gg G the use is the same as vim
 cat hosts | xargs -I{} ssh root@{}
+ls -l|grep 15|awk -F" " '$4{print $9}'|xargs -I{} find {} -name *.mp3|xargs -I{} ffplay -nodisp {} >/dev/null 2>&1 &
