@@ -19,4 +19,6 @@ less ctrl-b ctrl-f gg G the use is the same as vim
 cat hosts | xargs -I{} ssh root@{}
 ls -l|grep 15|awk -F" " '$4{print $9}'|xargs -I{} find {} -name *.mp3|xargs -I{} ffplay -nodisp {} >/dev/null 2>&1 &
 ssh -p 22 -qngfNTR 1111:localhost:22 root@47.95.202.222
+ssh -p 22 -i /root/.ssh/aliyun_rsa -fNR 1111:localhost:22 root@47.95.202.222
+autossh -p 22 -i /root/.ssh/aliyun_rsa -M 30003 -NR 1111:localhost:22 root@47.95.202.222
 scp -r -P 1111 root@47.95.202.222:/root/音乐 /
