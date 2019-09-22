@@ -1,10 +1,11 @@
 ctrl-u delete the line
-ctrl-a move to the aaa
+ctrl-a move to the ahead
 ctrl-e move to the end
+ctrl-k delete all behind the cursor
 ctrl-w delete the last argument
 ctrl-r search the used command
-ctrl-b move by word -before-
-ctrl-f move by word -after- 
+alt-b move by word -before-
+alt-f move by word -after- 
 alt-.. pop the prior last args
 history list the prior commands
 !! indicate the last command
