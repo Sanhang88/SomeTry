@@ -7,6 +7,8 @@ ctrl-e move to the end
 ctrl-k delete all behind the cursor
 ctrl-w delete the last argument
 ctrl-r search the used command
+ctrl-p display the last command
+ctrl-n display the next command
 alt-b move by word -before-
 alt-f move by word -after- 
 ctrl-b move by letter
