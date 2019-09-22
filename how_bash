@@ -1,4 +1,7 @@
-ctrl-u delete the line
+ctrl-u delete the content in front of the cursor
+ctrl-k delete the content behind the cursor
+ctrl-h delete the letter in front of the cursor
+ctrl-d delete the letter behind the cursor
 ctrl-a move to the ahead
 ctrl-e move to the end
 ctrl-k delete all behind the cursor
@@ -6,6 +9,8 @@ ctrl-w delete the last argument
 ctrl-r search the used command
 alt-b move by word -before-
 alt-f move by word -after- 
+ctrl-b move by letter
+ctrl-f move by letter
 alt-.. pop the prior last args
 history list the prior commands
 !! indicate the last command
@@ -25,3 +30,4 @@ autossh -p 22 -i /root/.ssh/aliyun_rsa -M 30003 -NR 1111:localhost:22 root@47.95
 scp -r -P 1111 root@47.95.202.222:/root/音乐 /
 ls  -1 | xargs -I {} python3 renaMe.py {}|xargs -d' ' -n2 -t  mv
 if you want to move to another tty, you could use alt+Fn to do so.
+
