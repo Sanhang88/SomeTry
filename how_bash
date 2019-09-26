@@ -38,3 +38,10 @@ do
 echo $i
 done
 
+pgrep -u root -l ssh
+pkill -u root -l ssh 
+p**** -P 1111
+p**** -g pgrep -u root -l ssh
+pkill -u root -l ssh 
+p**** -P 1111
+p**** -g jinchengzu 
