@@ -33,3 +33,8 @@ scp -r -P 1111 root@47.95.202.222:/root/音乐 /
 ls  -1 | xargs -I {} python3 renaMe.py {}|xargs -d' ' -n2 -t  mv
 if you want to move to another tty, you could use alt+Fn to do so.
 
+for i in {1..100}
+do
+echo $i
+done
+
