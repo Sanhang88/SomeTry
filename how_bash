@@ -45,3 +45,11 @@ p**** -g pgrep -u root -l ssh
 pkill -u root -l ssh 
 p**** -P 1111
 p**** -g jinchengzu 
+
+signal: Term Cont Stop Kill
+
+lsof list all of the files about openess
+fuser list all processes about a file
+uptime show how long the meshain has been running   w.
+alias aa=''  make one long command represented by a short one that you define
+
