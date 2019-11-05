@@ -47,9 +47,4 @@ p**** -P 1111
 p**** -g jinchengzu 
 
 signal: Term Cont Stop Kill
-
-lsof list all of the files about openess
-fuser list all processes about a file
-uptime show how long the meshain has been running   w.
-alias aa=''  make one long command represented by a short one that you define
-
+spleeter separate -i 稻香-合唱版.m4a -p spleeter:2stems -o out
