@@ -48,3 +48,4 @@ p**** -g jinchengzu
 
 signal: Term Cont Stop Kill
 spleeter separate -i 稻香-合唱版.m4a -p spleeter:2stems -o out
+head -num just show the first num line, and tail has a similar way with it.
