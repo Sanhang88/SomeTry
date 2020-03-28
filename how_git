@@ -12,3 +12,6 @@ git log
 git reset HEAD^
 git reflog
 git reset XXXXX
+git config --global user.name
+git config --global user.email
+
