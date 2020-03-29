@@ -23,3 +23,5 @@ git checkout filename
 git checkout -b new_branch
 git branch new_branch
 git checkout last_branch
+git branch -d ??
+git branch -D ??
