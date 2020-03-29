@@ -29,4 +29,5 @@ git merge A//A->master//the branch you are using will be replaced by the merge o
 git remote add origin [URL]
 git remote set-url origin [URL]
 git init
-git pull --rebase origin master //与目标库合并之后建立更改
+git pull --rebase origin master //将目标库作为上一次commit然后建立新的更改
+git pull origin master //获取目标？直接克隆？
