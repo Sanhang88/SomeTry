@@ -25,4 +25,4 @@ git branch new_branch
 git checkout last_branch
 git branch -d ??
 git branch -D ??
-git merge A//A->master
+git merge A//A->master//the branch you are using will be replaced by the merge one
