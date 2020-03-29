@@ -20,3 +20,6 @@ git reset --hard HEAD^
 git reflog
 git resert --hard 6fcfc89
 git checkout filename
+git checkout -b new_branch
+git branch new_branch
+git checkout last_branch
