@@ -19,3 +19,4 @@ git reset --hard HEAD~100
 git reset --hard HEAD^
 git reflog
 git resert --hard 6fcfc89
+git checkout filename
