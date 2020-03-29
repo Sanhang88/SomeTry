@@ -26,3 +26,6 @@ git checkout last_branch
 git branch -d ??
 git branch -D ??
 git merge A//A->master//the branch you are using will be replaced by the merge one
+git remote add origin [URL]
+git remote set-url origin [URL]
+git init

@@ -52,4 +52,4 @@ head -num just show the first num line, and tail has a similar way with it.
 tar -xzvf unpack a tar.gz file locally
 
 wc get the size of a designated file
-
+ssh-add ras_id
