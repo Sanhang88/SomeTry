@@ -25,3 +25,4 @@ git branch new_branch
 git checkout last_branch
 git branch -d ??
 git branch -D ??
+git merge A//A->master
