@@ -1,0 +1,57 @@
+ctrl-u delete the content in front of the cursor
+ctrl-k delete the content behind the cursor
+ctrl-h delete the letter in front of the cursor
+ctrl-d delete the letter behind the cursor
+ctrl-a move to the ahead
+ctrl-e move to the end
+ctrl-k delete all behind the cursor
+ctrl-w delete the last argument
+ctrl-r search the used command
+ctrl-p display the last command
+ctrl-n display the next command
+alt-b move by word -before-
+alt-f move by word -after- 
+ctrl-b move by letter
+ctrl-f move by letter
+alt-.. pop the prior last args
+history list the prior commands
+!! indicate the last command
+!$ indicate the last argument
+!n indicate the last command-argument combination
+~ indicate the home directory
+/ indicate the root directory
+- indicate the last directory
+alt-# make current line a comment line so that you can return it by history later
+column -t ** make each line align correctly
+less ctrl-b ctrl-f gg G the use is the same as vim
+cat hosts | xargs -I{} ssh root@{}
+ls -l|grep 15|awk -F" " '$4{print $9}'|xargs -I{} find {} -name *.mp3|xargs -I{} ffplay -nodisp {} >/dev/null 2>&1 &
+ssh -p 22 -qngfNTR 1111:localhost:22 root@47.95.202.222
+ssh -p 22 -i /root/.ssh/aliyun_rsa -fNR 1111:localhost:22 root@47.95.202.222
+autossh -p 22 -i /root/.ssh/aliyun_rsa -M 30003 -NR 1111:localhost:22 root@47.95.202.222
+scp -r -P 1111 root@47.95.202.222:/root/音乐 /
+ls  -1 | xargs -I {} python3 renaMe.py {}|xargs -d' ' -n2 -t  mv
+if you want to move to another tty, you could use alt+Fn to do so.
+
+for i in {1..100}
+do
+echo $i
+done
+
+pgrep -u root -l ssh
+pkill -u root -l ssh 
+p**** -P 1111
+p**** -g pgrep -u root -l ssh
+pkill -u root -l ssh 
+p**** -P 1111
+p**** -g jinchengzu 
+
+signal: Term Cont Stop Kill
+spleeter separate -i 稻香-合唱版.m4a -p spleeter:2stems -o out
+head -num just show the first num line, and tail has a similar way with it.
+tar -xzvf unpack a tar.gz file locally
+
+wc get the size of a designated file
+ssh-add ras_id
+
+nmap -v -A 222.24.192.212 -Pn -p 1-65530 search all available ports of an IP

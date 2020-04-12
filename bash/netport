@@ -1,0 +1,2 @@
+netstat -lpnut
+nmap -v -A 222.24.192.212 -Pn -p 1-65530 search all available ports of an IP
