@@ -53,3 +53,5 @@ tar -xzvf unpack a tar.gz file locally
 
 wc get the size of a designated file
 ssh-add ras_id
+
+nmap -v -A 222.24.192.212 -Pn -p 1-65530 search all available ports of an IP
