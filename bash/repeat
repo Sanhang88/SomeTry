@@ -1,0 +1,2 @@
+watch -n seconds cmd
+while true;cmd;sleep 1;done
