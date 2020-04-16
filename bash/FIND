@@ -1,0 +1,3 @@
+whereis binary
+find / -name "aria2"
+dbupdate ; locate aria2
